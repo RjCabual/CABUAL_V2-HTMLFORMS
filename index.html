@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="foodtrip.png">
+        <title>FoOdTrIp</title>
+        <link rel="stylesheet" href="style.css">
+            <h1>
+                FoOdTrIp
+                <img src="foodtrip.png" alt="Company Logo">
+            </h1> 
+            <body>
+            <img src="Screenshot 2024-04-25 183956.png" alt="Street foods" id="image1">
+            </image>
+            <header>
+                <button onclick="goToHomePage()" id="home-button">Home</button>                
+            </header>
+            <script>
+                function goToHomePage() {
+                    window.location.href = "index.html";
+                }
+            </script>
+           
+           <header>
+            <button onclick="goToSignInPage()" id="signin-button">Sign In</button>            
+        </header>
+        <script>
+            function goToSignInPage() {
+                window.location.href = "signin.html"
+            }
+        </script>
+        <div class="output-container">
+        </div>
+        <a href="order.html" class="order-button">Order Now</a>
+        </body>
+
+        <body>
+            <img src="ChicharonBulaklak-640.jpg" alt="best seller" id="image2"></image>
+            <img src="BARBEQUE.png" alt="sell" id="image3"></image>
+            <img src="KWEK KWEK.png" alt="selle" id="image4"></image>
+            <button id="select-button">Select</button>
+            <div class="select-btn1" onclick="toggleDropdown(this)">Select</div>
+            <div class="select-btn2" onclick="toggleDropdown(this)">Select</div>
+            <button onclick="viewFullMenu()" id="viewFullMenu">View Full Menu</button>
+            <script>
+                function selectOption(option) {
+                  alert('Selected: ' + option.textContent);
+                }
+                function viewFullMenu() {
+                  var dropdown = document.querySelector('.select-dropdown');
+                  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+                }
+                </script>
+                <button id="Facebook">FB</button>
+                <button id="Instagram">IG</button>
+                <button id="Gmail">GMAIL</button>
+                <button id="About">About us</button>
+                <button id="Terms">Terms and Comditions</button>
+                <button id="Feedback">Feedback</button>
+                <h2>
+                    Stay Connected  
+                </h2>
+        </body>
+    </head>
+</html>

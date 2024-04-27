@@ -1,0 +1,242 @@
+ h1{
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+h1 img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute; 
+    top: 10px; 
+    left: 0px; 
+   
+}
+#image1 {
+    width: 1150px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+#home-button {
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: absolute; 
+    top: 10px; 
+    left: 0px; 
+}
+#signin-button {
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute; 
+    top: 10px; 
+    left: 0px; 
+}
+.output-container {
+    height: 300px; 
+    overflow-y: auto; 
+}
+.order-button {
+    background-color: blue;
+    color: white; 
+    text-align: center;
+    padding: 30px 30px;
+    font-size: large;
+    width: 100px;
+    height: auto;
+    margin-top: 94px;
+    margin-left: 1100px;
+    position: absolute; 
+    top: 10px; 
+    left: 0px; 
+    display: inline-block;
+    border-radius: 20px;
+}
+#image2{
+    width: 600px;
+    position: absolute;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 100px;
+    display: block;
+    margin-top: -250px;
+}
+#select-button{
+    margin-top: 0px;
+    font-size: large;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -60px;
+    height: auto;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    top: 20px; 
+    left: 0px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+#image3{
+    width: 550px;
+    position: absolute;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 700px;
+    display: block;
+    margin-top: -250px;
+}
+#image4{
+    width: 550px;
+    position: absolute;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 700px;
+    display: block;
+    margin-top: -50px;
+}
+.select-btn1{
+    margin-top: 0px;
+    font-size: large;
+    position: relative;
+    margin-left: 1130px;
+    margin-bottom: 0px;
+    margin-top: -140px;
+    height: auto;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    top: 20px; 
+    left: 0px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.select-btn2{
+    margin-top: 0px;
+    font-size: large;
+    position: relative;
+    margin-left: 1130px;
+    margin-bottom: 0px;
+    margin-top: 160px;
+    height: auto;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    top: 20px; 
+    left: 0px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+#viewFullMenu{
+    font-size: large;
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 750px;
+    height: auto;
+    width: 600px;
+    background-color: blue;
+    color: white;
+    top: 20px; 
+    left: 0px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+#Facebook{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 200px;
+    position:absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+#Instagram{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 300px;
+    position:absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+#Gmail{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 400px;
+    position: absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+h2{
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px 20px;
+    position:initial;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 97%;
+}
+#About{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 800px;
+    position: absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+#Terms{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 950px;
+    position: absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+#Feedback{
+    background-color: blue;
+    color: white;  
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 1100px;
+    position: absolute; 
+    top: 135%; 
+    left: 0px; 
+}
+body{
+    background-color: cornflowerblue;
+}
